@@ -7,13 +7,15 @@ Parse and output TODOs and FIXMEs directly into your root README.md with each bu
 [![NPM Downloads](http://img.shields.io/npm/dm/leasot-to-readme.svg?style=flat)](https://npmjs.org/package/leasot-to-readme)
 [![Build Status](http://img.shields.io/travis/frewinchristopher/leasot-to-readme.svg?style=flat)](https://travis-ci.org/frewinchristopher/leasot-to-readme)
 
+*** NOTE: STILL IN BUILD STAGES! VERY BETA AND MANY OPTIONS MAY NOT FUNCTION!
+
 ## Usage
 First install leasot-to-readme globally:
 `npm install -g leasot-to-readme`
 
 To install with default settings for a given project, run at the root of any valid npm project:
 
-`leasot-to-readme default`
+`leasot-to-readme install`
 
 This will append the TODOs and FIXMEs to the bottom of README.md. Note that the TODOs and FIXMEs will not be appended to the project's README.md until the `start` command is run.
 
