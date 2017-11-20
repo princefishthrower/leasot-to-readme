@@ -1,0 +1,28 @@
+{
+  "name": "leasot-to-readme",
+  "version": "1.0.0",
+  "description": "Parse and output TODOs and FIXMEs directly into your root README.md with each build",
+  "bin": {
+    "leasot-to-readme": "bin/leasot-to-readme.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frewinchristopher/leasot-to-readme.git"
+  },
+  "keywords": [
+    "leasot",
+    "TODO",
+    "FIXME",
+    "readme"
+  ],
+  "author": "Christopher Frewin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frewinchristopher/leasot-to-readme/issues"
+  },
+  "homepage": "https://github.com/frewinchristopher/leasot-to-readme#readme",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "leasot": "^4.12.0"
+  }
+}
