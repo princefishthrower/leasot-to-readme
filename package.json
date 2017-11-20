@@ -1,6 +1,6 @@
 {
   "name": "leasot-to-readme",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parse and output TODOs and FIXMEs directly into your root README.md with each build",
   "bin": {
     "leasot-to-readme": "bin/leasot-to-readme.js"
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/frewinchristopher/leasot-to-readme#readme",
   "dependencies": {
     "commander": "^2.11.0",
+    "find-in-files": "^0.4.0",
     "leasot": "^4.12.0"
   }
 }
