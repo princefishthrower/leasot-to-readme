@@ -1,6 +1,6 @@
 {
   "name": "leasot-to-readme",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Parse and output TODOs and FIXMEs directly into your root README.md with each build",
   "bin": {
     "leasot-to-readme": "bin/leasot-to-readme.js"
