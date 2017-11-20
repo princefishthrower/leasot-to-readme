@@ -9,7 +9,7 @@ var pkg = require('../package.json');
 program
     .description(pkg.description)
     .version(pkg.version)
-    .usage('[options] <file ...>')
+    .usage('[options]')
     .option('-b, --build-command <npm command>', 'NPM command to hook leasot-to-readme to (default: start)', 'start')
     .option('-o, --output-file', 'output file to list TODOs and FIXMEs (default: README.md)', 'README.md')
     .option('-t, --title-file', 'Path to Markdown file of title (default: \'\')', '')
